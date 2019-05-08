@@ -1,0 +1,23 @@
+{
+  "name": "csabapalfi.com",
+  "description": "Csaba Palfi's Homepage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "sapper dev",
+    "now-build": "sapper export"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "marked": "^0.6.2",
+    "polka": "^0.5.0",
+    "sirv": "^0.4.0"
+  },
+  "devDependencies": {
+    "fg-loadcss": "^2.1.0",
+    "sapper": "^0.26",
+    "svelte": "^3.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0"
+  }
+}
