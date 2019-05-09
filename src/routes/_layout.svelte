@@ -1,9 +1,9 @@
 <script context="module">
-	import build_style_tag from '../utils/_build_style_tag.js';
+	import embed_styles from '../utils/_embed_styles.js';
+
 	export function preload({ params, query }) {
-		return this.fetch(`global.css`).then(r => r.text()).then(styles => {
-			return { globalStyles: build_style_tag(styles) };
-		});
+		return this.fetch(`global.css`).then(r => r.text())
+			.then(styles => ({ globalStyles: embed_styles(styles)}));
 	}
 </script>
 
