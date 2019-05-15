@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "sapper dev",
-    "now-build": "sapper export --legacy"
+    "build": "sapper build --legacy"
   },
   "dependencies": {
     "compression": "^1.7.1",
