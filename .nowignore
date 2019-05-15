@@ -1,5 +1,6 @@
+*
+!static
+!static/
+!__sapper__
+!__sapper__/
 __sapper__/dev
-__sapper__/export
-cypress
-node_modules
-src
