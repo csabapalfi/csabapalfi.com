@@ -2,12 +2,15 @@
   "version": 2,
   "alias": "csabapalfi.com",
   "builds": [{
-    "src": "package.json",
-    "use": "@now/static-build",
-    "config": { "distDir": "__sapper__/export" }
+    "src": "index.js",
+    "use": "@now/node",
+    "config": {
+      "includeFiles": [
+        "__sapper__/build/**",
+        "content/**",
+        "static/**"
+      ]
+    }
   }],
-  "routes": [{ 
-    "src": "/(.*)", 
-    "dest": "__sapper__/export/$1" 
-  }]
+  "routes": [{ "src": "/(.*)", "dest": "index.js" }]
 }
