@@ -1,0 +1,1 @@
+module.exports = require('./__sapper__/build/server/server');

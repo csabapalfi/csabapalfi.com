@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "sapper dev",
-    "now-build": "sapper export --legacy"
+    "now-build": "sapper build --legacy"
   },
   "dependencies": {
     "marked": "^0.6.2",
@@ -22,6 +22,7 @@
     "rollup": "^1.0.0",
     "rollup-plugin-babel": "^4.0.2",
     "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-svelte": "^5.0.1",
