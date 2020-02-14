@@ -6,8 +6,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "postbuild": "react-snap",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,8 +29,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
+    "grommet": "^2.10.0",
+    "grommet-icons": "^4.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
-  }
+    "react-scripts": "3.3.1",
+    "react-snap": "^1.23.0",
+    "styled-components": "^5.0.1"
+  },
+  "reactSnap": {
+    "removeScriptTags": true
+  },
+  "homepage": "https://csabapalfi.com"
 }

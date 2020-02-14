@@ -1,21 +1,17 @@
 import React from 'react';
+import { Box, Grommet } from 'grommet';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>{'Hello'}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {'Learn React'}
-        </a>
-      </header>
-    </div>
-  );
-}
+import theme from './theme';
+import Intro from './components/Intro';
+import Social from './components/Social';
+
+const App = () => (
+  <Grommet theme={theme} full>
+    <Box fill>
+      <Intro />
+      <Social />
+    </Box>
+  </Grommet>
+);
 
 export default App;
