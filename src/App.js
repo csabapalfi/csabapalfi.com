@@ -6,8 +6,8 @@ import Intro from './components/Intro';
 import Social from './components/Social';
 
 const App = () => (
-  <Grommet theme={theme} full>
-    <Box fill>
+  <Grommet theme={theme}>
+    <Box>
       <Intro />
       <Social />
     </Box>

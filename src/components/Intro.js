@@ -4,7 +4,12 @@ import { Box, Heading, Paragraph } from 'grommet';
 import Avatar from './Avatar';
 
 const Intro = () => (
-  <Box direction='row' flex overflow={{ horizontal: 'hidden' }}>
+  <Box
+    direction='row'
+    flex
+    overflow={{ horizontal: 'hidden' }}
+    pad={{ horizontal: 'medium', vertical: 'large' }}
+  >
     <Box flex align='center' justify='center'>
       <Avatar size="small"/>
       <Heading level='1'>Csaba Palfi</Heading>
