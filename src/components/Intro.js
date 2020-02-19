@@ -12,9 +12,9 @@ const Intro = () => (
   >
     <Box flex align='center' justify='center'>
       <Avatar size="small"/>
-      <Heading level='1'>Csaba Palfi</Heading>
+      <Heading level='1'>{'Csaba Palfi'}</Heading>
       <Paragraph margin={{ horizontal: 'medium', vertical: 'small' }} textAlign="center">
-        I help build great technology teams <br />and create engaging web and mobile experiences.
+        {'I help build great technology teams and create engaging web and mobile experiences.'}
       </Paragraph>
     </Box>
   </Box>
