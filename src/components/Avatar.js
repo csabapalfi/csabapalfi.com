@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Image } from "grommet";
+import { Blurhash } from "react-blurhash";
 
 import csaba192 from '../images/csaba192.jpg'
 import csaba384 from '../images/csaba384.jpg'
@@ -12,11 +13,17 @@ const Avatar = ({size}) => (
     round="full"
     overflow="hidden"
   >
-    <Image 
+    
+    <Blurhash
+      hash="UFK,?E=_?]yC00tlSui^.RV[rukq%$S%-;RP"
+      width={192}
+      height={192}
+    />
+    {/* <Image 
       srcSet={`${csaba192} 1x, ${csaba384} 2x`}
       src={csaba192}
       alt="Csaba Palfi"
-    />
+    /> */}
   </Box>
 );
 
