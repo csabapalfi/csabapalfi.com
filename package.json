@@ -34,6 +34,7 @@
     "grommet-icons": "^4.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
     "react-router": "6.0.0-alpha.3",
     "react-router-dom": "6.0.0-alpha.3",
     "react-scripts": "3.4.1",
@@ -41,7 +42,11 @@
     "styled-components": "^5.0.1"
   },
   "reactSnap": {
-    "removeScriptTags": true
+    "removeScriptTags": true,
+    "include": [
+      "/",
+      "/404.html"
+    ]
   },
   "homepage": "https://csabapalfi.com"
 }
