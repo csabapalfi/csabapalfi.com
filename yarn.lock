@@ -1249,6 +1249,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@palfi-ltd/ui-components@^0.1.1-beta.1":
+  version "0.1.1-beta.1"
+  resolved "https://registry.yarnpkg.com/@palfi-ltd/ui-components/-/ui-components-0.1.1-beta.1.tgz#551a712150c92fc6d524c38ffea9466b8b341dc2"
+  integrity sha512-vFw3QByZpYZBo4MC5LCLh3gNlEFWgDbDUoQTLsx6ft85ft/HvA/1cB9S3NgRU8MNp+hWOQqRjBMYa2hUOvBM+A==
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"

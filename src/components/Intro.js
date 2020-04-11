@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Heading, Paragraph } from 'grommet';
 
-import Avatar from './Avatar';
+import { Avatar } from '@palfi-ltd/ui-components';
 
 const Intro = () => (
   <Box
@@ -14,7 +14,7 @@ const Intro = () => (
       <Avatar size="small"/>
       <Heading level='1'>{'Csaba Palfi'}</Heading>
       <Paragraph margin={{ horizontal: 'medium', vertical: 'small' }} textAlign="center">
-        {'I help build great technology teams and create engaging web and mobile experiences.'}
+        {'I help build global technology teams, scalable platforms and engaging customer experiences.'}
       </Paragraph>
     </Box>
   </Box>
