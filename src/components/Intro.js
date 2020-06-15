@@ -14,7 +14,7 @@ const Intro = () => (
       <Avatar size="small"/>
       <Heading level='1'>{'Csaba Palfi'}</Heading>
       <Paragraph margin={{ horizontal: 'medium', vertical: 'small' }} textAlign="center">
-        {'I build technology teams, platforms and experiences.'}
+        {'I build technology teams, platforms and customer experiences.'}
       </Paragraph>
     </Box>
   </Box>
